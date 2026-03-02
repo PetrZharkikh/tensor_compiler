@@ -1,0 +1,9 @@
+digraph G {
+rankdir=LR;
+node [shape=box];
+ "Add" [label="Add\nAdd"];
+ "Relu" [label="Relu\nRelu"];
+ "MatMul" [label="MatMul\nMatMul"];
+  "Add" -> "Relu";
+  "Relu" -> "MatMul";
+}
