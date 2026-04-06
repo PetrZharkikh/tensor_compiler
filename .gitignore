@@ -15,5 +15,6 @@
 .vscode/
 .idea/
 /models/
-graph.dot
-graph.png
+/graph.dot
+/graph.png
+/.cache/
