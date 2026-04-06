@@ -13,6 +13,7 @@ add_executable(fe
     frontend/src/graph/node.cpp
     frontend/src/graph/graph.cpp
     frontend/src/graph/dot.cpp
+    frontend/src/graph/algorithms.cpp
 
     frontend/src/onnx/onnx_loader.cpp
 

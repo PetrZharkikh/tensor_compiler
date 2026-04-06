@@ -1,5 +1,9 @@
 digraph G {
 rankdir=LR;
 node [shape=box];
- "test" [label="test\nRelu"];
+ "/net/net.0/Gemm" [label="/net/net.0/Gemm\nGemm"];
+ "/net/net.1/Relu" [label="/net/net.1/Relu\nRelu"];
+ "/net/net.2/Gemm" [label="/net/net.2/Gemm\nGemm"];
+  "/net/net.0/Gemm" -> "/net/net.1/Relu";
+  "/net/net.1/Relu" -> "/net/net.2/Gemm";
 }
